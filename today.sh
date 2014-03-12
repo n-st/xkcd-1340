@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 date=$(date '+%F')
 files=""
 for i in {0..9}
